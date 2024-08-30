@@ -163,7 +163,7 @@
         echo "<br>";
         echo "<br>";
 
-        // str_replace() - 
+        // str_replace() - replace a some characters in a string
 
 
     ?>
