@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        // PHP string Functions - More than 100 functions
+        // PHP string Functions 
 
         // #1 - addcslashes() - This function returns a string with backslashes in front of the specified character
         
