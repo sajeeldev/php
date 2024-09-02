@@ -78,7 +78,7 @@
         echo "<br>";
 
         // count_chars() - Returns information about characters in a string;
-
+        echo "<h1>count_char()</h1>";
         $str9 = "Sajeel";
         echo count_chars($str9, 3);
 
