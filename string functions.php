@@ -165,6 +165,40 @@
 
         // str_replace() - replace a some characters in a string
 
+        $str18 = 'Hello World, I am going to launch me X-empire';
+        echo str_replace($str18, 'World', "Elon");
+
+        echo "<br>";
+        echo "<br>";
+
+        // str_shuffle(); - this will randomly shuffle all the character in a string;
+
+        $str19 = 'Shuffle all these words randomly';
+        echo str_shuffle($str19);
+
+        echo "<br>";
+        echo "<br>";
+
+        // str_split() - Splits a string into an array
+
+        $str20 = "This is a string and i will break this string throught str_split function";
+        print_r(str_split($str20, 17));
+
+        echo "<br>";
+        echo "<br>";
+
+        // str_word_count() - Count the number of words in a string
+
+        $str21 = 'This is a string';
+        echo str_word_count($str21);
+
+        echo "<br>";
+        echo "<br>";
+
+        // strcasecmp() - it will compare two strings (case-sensitive)
+        echo strcmp('This is String', 'This is String');
+
+
 
     ?>
 </body>
