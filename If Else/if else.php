@@ -3,43 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP If Statement</title>
+    <title>If else - Statement</title>
 </head>
 <body>
-        <h1>PHP Conditional Statements</h1>
+        <h1>if else Statement</h1>
+
         <?php
-            echo "<h5>PHP If</h5>";
+            // if else statement 
+            $time = date('H');
             
-            $x = 25;
-
-            if($x == 25){
-                echo "Correct";
+            if($time < 12){
+                echo "Have a great day";
+            }else {
+                echo "Have a good night";
             }
 
             echo "<br>";
-            echo "<br>";
-            
-            $x = 5;
-            
-            if($x < 10){
-                $x++;
-                echo $x;
-            }
-            
-            echo "<br>";
-            
-            // More examples of If statement
-            
-            if(10 < 20){
-                echo "The number 10 is smaller than 20";
-            }
-            
+
+            // if elseif else statement
+
+            $t = date("H");
+            echo $t;
             echo "<br>";
 
-            $z = 10;
-
-            if($z > 0){
-                echo "Have a nice Day";
+            if($t < 12){
+                echo "Have a great day"; 
+            }elseif ($t < 7) {
+                echo "Have a good morning";
+            }else {
+                echo "Have a good night";
             }
         ?>
 </body>
