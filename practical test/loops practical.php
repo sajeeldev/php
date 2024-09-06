@@ -67,8 +67,8 @@
                 // Break in for loop
             
                 for($i = 0; $i < 10; $i++){
-                    if ($i == 5) break;
                     echo $i;
+                    if ($i == 5) break;
                 }
 
                 echo "<br>";
@@ -85,7 +85,27 @@
                     echo $x;
                     $x++;
                 }
+
+                echo "<br>";
+                echo "<br>";
+
+                // Break in do while loop
+
+                $x = 0;
+
+                do{
+                    if($x == 5){
+                        break;
+                    }
+                    echo $x;
+                    $x++;
+                }while($x < 10);
             
             ?>
+
+
+                <h1>Continue</h1>
+
+                
 </body>
 </html>
