@@ -19,6 +19,9 @@
             
             print_r(array_map("lowercase", $fruits));
 
+            echo "<br>";
+            echo "<br>";
+
             //  ------------------------------------------   //
 
             // function totalSubject($sub){
@@ -32,6 +35,11 @@
             // $subject = [ "English", "Urdu", "Math", "Science" ];
             // $res = array_map("totalSubject", $subject);
             // print_r($res);
+
+
+            
+
+            // array 
             
         
         ?>

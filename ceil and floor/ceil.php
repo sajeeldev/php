@@ -28,8 +28,7 @@
         
         echo "The result of 0.80 is: " . ceil(0.80);
         echo "<br>";
-
-
+        
         ?>
 </body>
 </html>
